@@ -1,0 +1,107 @@
+{
+ "source": "fixture",
+ "user": {
+  "login": "marina-exemplo",
+  "name": "marinaexemplo",
+  "bio": "Dev | AWS",
+  "location": "",
+  "blog": "",
+  "hireable": null,
+  "public_repos": 6
+ },
+ "repos": [
+  {
+   "name": "api-pedidos-fastapi",
+   "description": "API de pedidos com FastAPI, PostgreSQL e testes automatizados em Docker.",
+   "language": "Python",
+   "topics": [
+    "fastapi",
+    "python",
+    "docker"
+   ],
+   "stargazers_count": 4,
+   "size": 320,
+   "pushed_at": "2026-10-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/api-pedidos-fastapi",
+   "license": {
+    "key": "mit"
+   },
+   "homepage": "",
+   "fork": false,
+   "archived": false
+  },
+  {
+   "name": "semgrep-rules-br",
+   "description": "Regras Semgrep",
+   "language": "Python",
+   "topics": [],
+   "stargazers_count": 1,
+   "size": 80,
+   "pushed_at": "2026-06-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/semgrep-rules-br",
+   "license": null,
+   "fork": false,
+   "archived": false
+  },
+  {
+   "name": "Teste",
+   "description": null,
+   "language": "JavaScript",
+   "topics": [],
+   "stargazers_count": 0,
+   "size": 0,
+   "pushed_at": "2022-01-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/Teste",
+   "license": null,
+   "fork": false,
+   "archived": false
+  },
+  {
+   "name": "My_Scanner",
+   "description": null,
+   "language": "Go",
+   "topics": [],
+   "stargazers_count": 0,
+   "size": 45,
+   "pushed_at": "2024-02-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/My_Scanner",
+   "license": null,
+   "fork": false,
+   "archived": false
+  },
+  {
+   "name": "react",
+   "description": "The library for web and native user interfaces.",
+   "language": "JavaScript",
+   "topics": [
+    "react"
+   ],
+   "stargazers_count": 0,
+   "size": 900000,
+   "pushed_at": "2023-01-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/react",
+   "license": {
+    "key": "mit"
+   },
+   "fork": true,
+   "archived": false
+  },
+  {
+   "name": "marina-exemplo",
+   "description": "Perfil",
+   "language": null,
+   "topics": [],
+   "stargazers_count": 0,
+   "size": 2,
+   "pushed_at": "2025-01-01T12:00:00Z",
+   "html_url": "https://github.com/marina-exemplo/marina-exemplo",
+   "fork": false,
+   "archived": false
+  }
+ ],
+ "profile_readme": "# Oi\nContato: (41) 99999-1234 · github.com/marinna-exemplo\n",
+ "pinned": [
+  "react",
+  "Teste"
+ ]
+}

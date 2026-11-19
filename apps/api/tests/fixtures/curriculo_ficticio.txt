@@ -1,0 +1,19 @@
+MARINA EXEMPLO SOUZA
+DESENVOLVEDORA BACKEND | PYTHON & SEGURANÇA DE APLICAÇÕES
+Curitiba, PR - Brasil • marina.exemplo@example.com • https://github.com/marina-exemplo • https://linkedin.com/in/marina-exemplo
+
+RESUMO PROFISSIONAL
+Desenvolvedora backend com foco em Python, FastAPI e AppSec. Automação de pipelines com Docker e GitHub Actions.
+
+EXPERIÊNCIA PROFISSIONAL
+Desenvolvedora Backend: Empresa Fictícia Ltda, APIs REST em Python e PostgreSQL (Jan/2023 - atual).
+Analista de Segurança Júnior: Outra Empresa Fictícia, SAST com Semgrep e triagem OWASP Top 10 (Mar/2021 - Dez/2022).
+
+COMPETÊNCIAS TÉCNICAS
+Python, FastAPI, Docker, GitHub Actions, PostgreSQL, Kubernetes, AppSec, SAST, OWASP Top 10, Terraform.
+
+FORMAÇÃO ACADÊMICA
+Bacharelado em Sistemas de Informação — Universidade Fictícia (2017 - 2021).
+
+CERTIFICAÇÕES
+Certificação Fictícia de Segurança (Mai/2024)

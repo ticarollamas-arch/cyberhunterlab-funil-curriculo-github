@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funil Currículo ATS → GitHub · CyberHunterLab</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#0b0d10;--s1:#12151a;--s2:#181c22;--line:#262b33;--tx:#e6e9ee;--mut:#8b94a3;--acc:#3b82f6;--cy:#22d3ee;
+--ok:#22c55e;--warn:#f59e0b;--bad:#ef4444;--r:12px;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);line-height:1.5}
+a{color:var(--cy)}header{border-bottom:1px solid var(--line);background:linear-gradient(180deg,#0f1319,#0b0d10)}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.2px}
+.brand svg{color:var(--cy)}h1{font-size:clamp(1.4rem,3.5vw,2rem);margin:18px 0 6px}
+.lead{color:var(--mut);margin:0 0 4px;max-width:720px}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin:16px 0}
+label{display:block;font-size:.85rem;color:var(--mut);margin:12px 0 6px}
+input[type=text],input[type=password],textarea{width:100%;background:var(--s2);border:1px solid var(--line);color:var(--tx);
+border-radius:10px;padding:10px 12px;font:inherit}textarea{min-height:120px;resize:vertical}
+input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+.grid{display:grid;gap:12px}@media(min-width:760px){.grid.two{grid-template-columns:1fr 1fr}}
+.drop{border:1px dashed #3a4250;border-radius:10px;padding:16px;text-align:center;color:var(--mut);cursor:pointer}
+.drop.has{border-color:var(--acc);color:var(--tx)}
+button{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:11px 16px;font:inherit;font-weight:600;cursor:pointer;
+display:inline-flex;gap:8px;align-items:center}button.ghost{background:transparent;border:1px solid var(--line);color:var(--tx)}
+button:disabled{opacity:.5;cursor:not-allowed}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.hint{font-size:.8rem;color:var(--mut)}.err{color:#fca5a5;margin-top:10px}
+.steps{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));margin:8px 0 0;padding:0;list-style:none}
+.steps li{background:var(--s2);border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer;font-size:.85rem}
+.steps li[aria-current=true]{border-color:var(--acc)}.steps b{display:block;font-size:.72rem;color:var(--mut);font-weight:500}
+.chip{display:inline-block;font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:99px;letter-spacing:.3px;margin-top:6px}
+.SUCCESS{background:#14532d;color:#86efac}.FAILED{background:#7f1d1d;color:#fecaca}.BLOCKED{background:#78350f;color:#fde68a}
+.NOT_EXECUTED,.PLANNED{background:#1f2937;color:#cbd5e1}
+.sev{font-size:.7rem;font-weight:700;text-transform:uppercase;padding:1px 6px;border-radius:6px;margin-right:6px}
+.sev.alta{background:#7f1d1d;color:#fecaca}.sev.media{background:#78350f;color:#fde68a}.sev.baixa{background:#1e3a8a;color:#bfdbfe}
+ul.clean{padding-left:18px}ul.clean li{margin:6px 0}
+table{width:100%;border-collapse:collapse;font-size:.88rem}td,th{border-bottom:1px solid var(--line);padding:7px 6px;text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:500}.scroll{overflow-x:auto}
+pre{background:#0a0c0f;border:1px solid var(--line);border-radius:10px;padding:12px;overflow:auto;max-height:420px;white-space:pre-wrap;font-size:.82rem}
+.score{font-size:2.2rem;font-weight:700}.tag{font-size:.75rem;background:var(--s2);border:1px solid var(--line);padding:1px 7px;border-radius:99px;margin:2px;display:inline-block}
+.st-COMPROVADA{color:var(--ok)}.st-SEM_EVIDENCIA{color:var(--warn)}.st-SO_NO_GITHUB{color:var(--cy)}.st-NAO_VERIFICADA{color:var(--mut)}
+details summary{cursor:pointer;color:var(--mut)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>CyberHunterLab · Engenheiro Reverso</div>
+  <h1>Funil Currículo ATS → GitHub</h1>
+  <p class="lead">Auditoria completa do GitHub, checklist de habilidades, SEO, projetos em destaque, veredito do perfil, README.md e currículo ATS — tudo a partir de evidências, sem inventar nada.</p>
+</div></header>
+
+<main class="wrap">
+<section class="card" aria-labelledby="in-t">
+  <h2 id="in-t" style="margin:0;font-size:1.05rem">1 · Dados de entrada</h2>
+  <div class="grid two">
+    <div>
+      <label for="file">Currículo (PDF, DOCX, TXT ou MD — até 5 MB)</label>
+      <div class="drop" id="drop" tabindex="0" role="button">Toque para escolher ou arraste o arquivo</div>
+      <input id="file" type="file" accept=".pdf,.docx,.txt,.md" hidden>
+      <label for="text">…ou cole o texto do currículo</label>
+      <textarea id="text" placeholder="NOME&#10;TÍTULO | ESPECIALIDADES&#10;..."></textarea>
+    </div>
+    <div>
+      <label for="user">Usuário do GitHub (opcional se o link estiver no currículo)</label>
+      <input id="user" type="text" placeholder="ex.: octocat" autocomplete="off">
+      <label for="token">Token GitHub de leitura (opcional — evita limite de requisições; não é armazenado)</label>
+      <input id="token" type="password" autocomplete="off">
+      <label for="snap">Snapshot JSON (opcional — modo offline, com user/repos/profile_readme)</label>
+      <input id="snap" type="file" accept=".json">
+      <label><input id="email" type="checkbox"> Incluir e-mail no README proposto</label>
+    </div>
+  </div>
+  <div class="row"><button id="run">Executar funil</button><span class="hint" id="status" role="status" aria-live="polite"></span></div>
+  <div class="err" id="err" role="alert"></div>
+</section>
+
+<section class="card" id="out" hidden>
+  <h2 style="margin:0;font-size:1.05rem">2 · Resultado</h2>
+  <p class="hint" id="meta"></p>
+  <ol class="steps" id="steps"></ol>
+  <div id="panel" style="margin-top:16px"></div>
+</section>
+</main>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let fileData = null, snapData = null, report = null, current = 0;
+
+$("#drop").onclick = () => $("#file").click();
+$("#drop").onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") $("#file").click(); };
+$("#drop").ondragover = (e) => e.preventDefault();
+$("#drop").ondrop = (e) => { e.preventDefault(); if (e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]); };
+$("#file").onchange = (e) => e.target.files[0] && loadFile(e.target.files[0]);
+$("#snap").onchange = async (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  try { snapData = JSON.parse(await f.text()); } catch { snapData = null; $("#err").textContent = "Snapshot JSON inválido."; }
+};
+
+function loadFile(f) {
+  if (f.size > 5 * 1024 * 1024) { $("#err").textContent = "Arquivo maior que 5 MB."; return; }
+  const r = new FileReader();
+  r.onload = () => { fileData = { filename: f.name, content_base64: r.result.split(",")[1] };
+    $("#drop").textContent = f.name; $("#drop").classList.add("has"); };
+  r.readAsDataURL(f);
+}
+
+$("#run").onclick = async () => {
+  $("#err").textContent = "";
+  const body = { github_username: $("#user").value.trim() || undefined, github_token: $("#token").value.trim() || undefined,
+                 include_email: $("#email").checked, snapshot: snapData || undefined };
+  if (fileData) body.resume = fileData; else body.resume_text = $("#text").value;
+  if (!fileData && !$("#text").value.trim()) { $("#err").textContent = "Envie ou cole o currículo."; return; }
+  $("#run").disabled = true; $("#status").textContent = "Executando as 7 etapas…";
+  try {
+    const res = await fetch("/api/funnel/run", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "Falha na execução");
+    report = data; current = 0; render();
+    $("#status").textContent = "Concluído.";
+  } catch (e) { $("#err").textContent = e.message; $("#status").textContent = ""; }
+  finally { $("#run").disabled = false; }
+};
+
+function render() {
+  $("#out").hidden = false;
+  const g = report.github;
+  $("#meta").textContent = `GitHub: ${g.usuario || "—"} · fonte: ${g.fonte}` + (g.erro ? ` · ${g.erro}` : "");
+  $("#steps").innerHTML = report.etapas.map((s, i) =>
+    `<li data-i="${i}" aria-current="${i === current}"><b>Etapa ${i + 1}</b>${esc(s.title)}<br><span class="chip ${s.status}">${s.status}</span></li>`).join("");
+  document.querySelectorAll("#steps li").forEach((li) => li.onclick = () => { current = +li.dataset.i; render(); });
+  $("#panel").innerHTML = stagePanel(report.etapas[current]);
+  bindPanel(report.etapas[current]);
+}
+
+const findings = (list) => list && list.length ? `<ul class="clean">${list.map((f) =>
+  `<li><span class="sev ${f.severity}">${f.severity}</span>${esc(f.item)} — <span class="hint">${esc(f.fix)}</span></li>`).join("")}</ul>` : "";
+
+function stagePanel(s) {
+  let h = `<h3 style="margin:0 0 4px">${esc(s.title)} <span class="chip ${s.status}">${s.status}</span></h3><p>${esc(s.summary)}</p>`;
+  if (s.stats) h += `<p class="hint">${Object.entries(s.stats).filter(([k]) => k !== "linguagens").map(([k, v]) => `${k.replaceAll("_", " ")}: <b>${v}</b>`).join(" · ")}</p>`;
+  h += findings(s.findings) + findings(s.problemas);
+  if (s.items) h += `<div class="scroll"><table><tr><th>Habilidade</th><th>Status</th><th>Evidências</th><th>Ação</th></tr>${s.items.map((i) =>
+    `<tr><td>${esc(i.skill)}<br><span class="hint">${esc(i.category)}</span></td><td class="st-${i.status}">${i.status.replaceAll("_", " ")}</td><td>${i.evidencias.map((e) => `<span class="tag">${esc(e)}</span>`).join("") || "—"}</td><td class="hint">${esc(i.acao)}</td></tr>`).join("")}</table></div>`;
+  if (s.bio) h += `<p><b>Bio atual:</b> ${esc(s.bio.atual || "—")}</p><ul class="clean">${s.bio.problemas.map((p) => `<li>${esc(p)}</li>`).join("")}</ul><p><b>Bio sugerida:</b> ${esc(s.bio.sugestao)}</p>`;
+  if (s.repos) h += `<div class="scroll"><table><tr><th>Repositório</th><th>Problemas</th><th>Sugestões</th></tr>${s.repos.map((r) =>
+    `<tr><td><a href="${esc(r.html_url)}" target="_blank" rel="noopener">${esc(r.name)}</a></td><td class="hint">${r.issues.map(esc).join("<br>")}</td><td>${r.nome_sugerido ? `Nome: <code>${esc(r.nome_sugerido)}</code><br>` : ""}${r.descricao_rascunho ? `<i>${esc(r.descricao_rascunho)}</i><br>` : ""}${r.topics_sugeridos.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</td></tr>`).join("")}</table></div><p class="hint">${esc(s.nota || "")}</p>`;
+  if (s.destaques) h += `<ol class="clean">${s.destaques.map((p) => `<li><a href="${esc(p.html_url)}" target="_blank" rel="noopener">${esc(p.name)}</a> · ${p.score.total} pts<br><span class="hint">${esc(p.motivo)}</span></li>`).join("")}</ol>`
+    + (s.pins ? `<p class="hint">Fixados hoje: ${esc(s.pins.fixados_hoje.join(", ") || "—")} · trocar: ${esc(s.pins.trocar.join(", ") || "—")}</p>` : "")
+    + (s.habilidades_sem_projeto_fixado?.length ? `<p class="hint">Habilidades do currículo sem projeto fixado: ${esc(s.habilidades_sem_projeto_fixado.join(", "))}</p>` : "")
+    + `<p class="hint">${esc(s.como_fixar || "")}</p>`;
+  if (s.criterios) h += `<p class="score">${s.score}/100 · ${esc(s.veredito)}</p><div class="scroll"><table><tr><th>Critério</th><th>Peso</th><th>Pontos</th></tr>${s.criterios.map((c) => `<tr><td>${esc(c.criterio)}</td><td>${c.peso}</td><td>${c.pontos}</td></tr>`).join("")}</table></div>`
+    + (s.corrigir_primeiro.length ? `<h4>Corrigir primeiro</h4><ul class="clean">${s.corrigir_primeiro.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>` : "");
+  if (s.proposta !== undefined) {
+    h += (s.precisa_mudar === true ? `<p><b>Precisa mudar o README do perfil:</b></p>` : s.precisa_mudar === false ? `<p><b>README atual adequado.</b></p>` : "")
+      + `<ul class="clean">${(s.motivos || []).map((m) => `<li>${esc(m)}</li>`).join("")}</ul>`
+      + `<label for="md">Proposta (editável)</label><textarea id="md" style="min-height:300px">${esc(s.proposta)}</textarea>`
+      + `<div class="row"><button class="ghost" id="dl-md">Baixar README.md</button></div>`
+      + (s.atual ? `<details><summary>README atual</summary><pre>${esc(s.atual)}</pre></details>` : "")
+      + `<div class="card" style="background:var(--s2)"><b>Publicar via pull request</b><p class="hint">Nada é publicado sem sua confirmação. Exige token com escrita no repositório de perfil.</p>
+         <label for="wtoken">Token com permissão de escrita</label><input id="wtoken" type="password" autocomplete="off">
+         <label><input type="checkbox" id="confirm"> Revisei o conteúdo e autorizo abrir o pull request</label>
+         <div class="row"><button id="pr" disabled>Abrir pull request</button><span class="hint" id="pr-st" role="status"></span></div></div>`;
+  }
+  if (s.curriculo_ats) h += `<pre id="ats">${esc(s.curriculo_ats)}</pre><div class="row"><button class="ghost" id="dl-ats">Baixar currículo ATS (.md)</button></div><p class="hint">${esc(s.nota)}</p>`;
+  return h;
+}
+
+function download(name, text) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type: "text/markdown" })); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+function bindPanel(s) {
+  $("#dl-md") && ($("#dl-md").onclick = () => download("README.md", $("#md").value));
+  $("#dl-ats") && ($("#dl-ats").onclick = () => download("curriculo-ats.md", s.curriculo_ats));
+  if ($("#pr")) {
+    const upd = () => $("#pr").disabled = !($("#confirm").checked && $("#wtoken").value.trim());
+    $("#confirm").onchange = upd; $("#wtoken").oninput = upd;
+    $("#pr").onclick = async () => {
+      $("#pr").disabled = true; $("#pr-st").textContent = "Abrindo pull request…";
+      const res = await fetch("/api/funnel/apply", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ github_username: report.github.usuario, github_token: $("#wtoken").value.trim(), markdown: $("#md").value, confirm: true }) });
+      const d = await res.json();
+      $("#pr-st").innerHTML = res.ok ? `Pull request aberto: <a href="${esc(d.pull_request.url)}" target="_blank" rel="noopener">${esc(d.pull_request.url)}</a>` : esc(d.error || d.message);
+      upd();
+    };
+  }
+}
+</script>
+</body>
+</html>
