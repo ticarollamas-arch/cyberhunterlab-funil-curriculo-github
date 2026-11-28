@@ -2,6 +2,10 @@
 
 # CyberHunterLab — funil Currículo ATS → GitHub e Engenheiro Reverso
 
+<!-- vercel-demo:start -->
+<p align="center"><a href="https://cyberhunterlab-funil.vercel.app"><img src="https://img.shields.io/badge/Abrir_o_site-cyberhunterlab--funil.vercel.app-22D3EE?logo=vercel&logoColor=white&labelColor=0B1220" alt="Abrir o site cyberhunterlab-funil.vercel.app"></a></p>
+<!-- vercel-demo:end -->
+
 Monorepo com duas aplicações que rodam localmente ou com Docker:
 
 - **Funil Currículo ATS → GitHub** (`apps/api`): API em Python (Starlette) e CLI que cruzam um currículo (PDF, DOCX ou TXT) com o perfil do GitHub. Elas auditam o perfil, comprovam habilidades com repositórios reais, sugerem SEO de títulos e topics e geram um currículo compatível com **ATS**.
